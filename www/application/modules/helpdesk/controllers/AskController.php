@@ -11,7 +11,7 @@ class Helpdesk_AskController extends Zend_Controller_Action
 	private 	$_model;
 	private 	$hlp; // помощник действий Typic
 	private 	$_author; // пользователь шо щаз залогинен
-	private 	$filterState=999; // выбранное состояние в фильтра поиска
+	private 	$filterState=0; // выбранное состояние в фильтра поиска
 	private 	$filterDay=3; // выбранно дней в  фильтра поиска
 	private 	$filterType=array(); // выбранный тип заявки в  фильтра поиска
 	private 	$ticketTypes;
